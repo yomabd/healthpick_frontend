@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my title</title>
+    <title>TESTING</title>
 </head>
 <body>
+    <!--
     <h1>DIFFERENT HEADING TAGS</h1>
     <h1>This is a heading one</h1>
     <h2>this is a heading two</h2>
@@ -16,29 +17,85 @@
     <h6>this is a heading six</h6>
 
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia aliquam possimus cumque non consequuntur qui libero numquam perspiciatis veniam adipisci voluptatum inventore nam maiores iure eligendi atque mollitia, beatae consectetur.</p>
-    <h3>SOME IT COURSES</h3>
-    <li>
-        <ol>IT support</ol>
-        <ol>software development</ol>
-        <ol>Data Analytics</ol>
-        <ol>Cyber Security</ol>
-        <ol>Oracle Business Intelligence</ol>
-    </li>
+    <h3>AVAILABLE IT COURSES</h3>
+    <ul>
+        <li>IT support</li>
+        <li>software development</li>
+        <li>Data Analytics</li>
+        <li>Cyber Security</li>
+        <li>Oracle Business Intelligence</li>
+        </ul>
+     
 
     <form action="/push-it-here-bro" method="post">
-        <label for="username">
-            
-        </label>
+        <label for="username">Username:</label>
         <input type="text"
         id="username"
         name="username"
-        >
-        <label for="password"></label>
+        ><br><br>
+        <label for="password"> Password:</label>
         <input type="password"
         id="password"
         name="password"
-        >
-        <input type="submit" value="ROLL IT">
-    </form>
+        placeholder="Password"
+        ><br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"><br><br>
+        <label for="number">Proficiency Level</label>
+        <input type="number" name="quantity" id="number" min="1" max="5"><br><br>
+        <label for="telphone">Phone Number</label>
+        <input type="tel" name="phone" id="telphone" pattern="[0-9]{11}" placeholder="07063923692"><br><br>
+        <input type="checkbox" name="subscribe" id="checkbox">   
+        <label for="checkbox">Subscribe to news letter</label> <br><br>
+        <input type="radio" name="radio" id="radio">
+        <label for="radio">Male</label><br><br>
+        <input type="radio" name="radio" id="radio">
+        <label for="radio">Female</label><br><br>
+        <label for="date">Date of Birth:</label><br><br>
+        <input type="date" name="date" id="date"><br><br>        
+        
+        <input type="submit" value="SUBMIT">
+</form> -->
+
+<!-- Authentication part starts here:: Authentication: full name, email, phone number, location and password -->
+
+<form action="" method="post">
+    <h1>........AUTHENTICATION.........</h1>
+    <h3>Kindly input your details for registeration</h3>
+    <label for="name">Full Name</label>
+    <input type="text" name="fullname" id="name"><br><br>
+    <label for="first-email">Email</label>
+    <input type="email" name="email" id="first-email"><br><br>
+    <label for="first-phone">Phone Number </label>
+    <input type="tel" name="phone" id="first-phone"><br><br>
+    <label for="location">Location</label>
+    <input type="text" name="location" id="location"><br><br>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password"><br><br>
+    
+</form>
+<!-- Bank part starts here:: Bank: fullname, bvn, email, location, NIN, phone number, and picture -->
+<form action="" method="post">
+
+    <h1>......BANK INFORMATION.........</h1>
+    <h3>Kindly input your bank infomation please</h3>
+    <label for="fullname">Full Name</label>
+    <input type="text" name="name" id="fullname">
+    <label for="bvn">BVN</label>
+    <input type="tel" name="bvn" id="bvn">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+    <label for="location">Location</label>
+    <input type="text" name="location" id="location">
+    <label for="nin">NIN</label>
+    <input type="tel" name="nin" id="nin">
+    <label for="phone">Phone Number</label>
+    <input type="tel" name="phone" id="phone">
+    <label for="picture"></label>
+    <input type="file" name="picture" id="picture">
+</form>
+
+
+
 </body>
 </html>
